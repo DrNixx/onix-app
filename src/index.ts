@@ -1,0 +1,1 @@
+export { IntlState, IntlAction, intlReducer } from './IntlReducer';

@@ -1,6 +1,6 @@
 {
   "name": "onix-app",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Onix abstract application",
   "main": "built/index.js",
   "scripts": {
@@ -25,7 +25,8 @@
   "homepage": "https://github.com/DrNixx/onix-app#readme",
   "dependencies": {
     "onix-core": "^1.1.18",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "rxjs": "^5.4.2"
   },
   "devDependencies": {
     "@types/node": "^7.0.39",

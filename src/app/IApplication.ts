@@ -4,4 +4,4 @@ export interface IApplication {
     stream: IStream,
 }
 
-export let appInstance: IApplication = null;
+export var appInstance: IApplication = null;

@@ -1,6 +1,6 @@
 {
   "name": "onix-app",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Onix abstract application",
   "main": "built/index.js",
   "types": "built/index.d.ts",

@@ -1,8 +1,9 @@
 {
   "name": "onix-app",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Onix abstract application",
   "main": "built/index.js",
+  "types": "built/index.d.ts",
   "scripts": {
     "build": "tsc && webpack",
     "webpack": "webpack",

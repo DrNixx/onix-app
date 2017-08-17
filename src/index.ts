@@ -6,4 +6,4 @@ export { IStreamMessage } from './net/IStreamMessage';
 export { IStream } from './net/IStream';
 
 export { IModule } from './app/IModule';
-export { IApplication, appInstance } from './app/IApplication';
+export { IApplication, appInstance, setAppInstance } from './app/IApplication';

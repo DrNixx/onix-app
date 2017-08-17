@@ -5,3 +5,7 @@ export interface IApplication {
 }
 
 export var appInstance: IApplication = null;
+
+export const setAppInstance = (app: IApplication) => {
+    appInstance = app;
+}

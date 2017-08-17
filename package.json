@@ -1,6 +1,6 @@
 {
   "name": "onix-app",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Onix abstract application",
   "main": "built/index.js",
   "types": "built/index.d.ts",
@@ -34,7 +34,7 @@
     "@types/node": "^7.0.42",
     "awesome-typescript-loader": "^3.2.3",
     "source-map-loader": "^0.2.1",
-    "typescript": "^2.4.2",
+    "typescript": "^2.5.0",
     "webpack": "^2.7.0"
   }
 }

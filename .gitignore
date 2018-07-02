@@ -1,5 +1,5 @@
 node_modules
-built
+dist
 .vscode
 /onix-app.js
 /onix-app.js.map

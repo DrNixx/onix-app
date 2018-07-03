@@ -1,5 +1,5 @@
-import { Reducer } from 'redux';
-import { Intl } from 'onix-core';
+import { Reducer } from "redux";
+import { Intl } from "onix-core";
 
 export interface IntlState {
     locale: string

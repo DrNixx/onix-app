@@ -10,7 +10,7 @@ export type IntlAction = {
     locale: string
 }
 
-export const intlReducer: Reducer<IntlState> = (
+export const intlReducer: Reducer<IntlState, IntlAction> = (
     state: IntlState = {
         locale: 'ru-ru'
     },

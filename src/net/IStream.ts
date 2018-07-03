@@ -1,4 +1,6 @@
-import { Subscription, BehaviorSubject } from "rxjs";
+//import { Subscription, BehaviorSubject } from "rxjs";
+import { Subscription } from "rxjs/Subscription";
+import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { IStreamMessage } from "./IStreamMessage";
 import { ConnectionStatus } from "./ConnectionStatus";
 

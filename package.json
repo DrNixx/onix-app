@@ -1,6 +1,6 @@
 {
   "name": "onix-app",
-  "version": "1.5.20",
+  "version": "1.6.21",
   "description": "Onix abstract application",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,7 +29,6 @@
     "onix-core": "^1.6.39",
     "redux": "^4.0.0",
     "rxjs": "^6.2.1",
-    "rxjs-compat": "^6.2.1",
     "warning": "^4.0.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "onix-app",
-  "version": "1.6.21",
+  "version": "1.6.22",
   "description": "Onix abstract application",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

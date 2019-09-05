@@ -1,6 +1,6 @@
 {
   "name": "onix-app",
-  "version": "1.6.23",
+  "version": "1.6.24",
   "description": "Onix abstract application",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,17 +26,17 @@
   },
   "homepage": "https://github.com/DrNixx/onix-app#readme",
   "dependencies": {
-    "onix-core": "^1.6.41",
+    "onix-core": "^1.6.42",
     "redux": "^4.0.4",
-    "rxjs": "^6.5.2",
+    "rxjs": "^6.5.3",
     "warning": "^4.0.3"
   },
   "devDependencies": {
-    "@types/node": "^7.10.6",
+    "@types/node": "^7.10.7",
     "clean-webpack-plugin": "^0.1.19",
     "ts-loader": "^4.5.0",
     "typescript": "^2.9.2",
-    "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   }
 }

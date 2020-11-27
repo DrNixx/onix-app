@@ -1,5 +1,6 @@
+import { i18n } from 'onix-core';
 import { Reducer } from "redux";
-import { Intl } from "onix-core";
+import { from } from 'rxjs';
 
 export interface IntlState {
     locale: string
@@ -12,13 +13,13 @@ export type IntlAction = {
 
 export const intlReducer: Reducer<IntlState, IntlAction> = (
     state: IntlState = {
-        locale: 'ru-ru'
+        locale: 'en-us'
     },
     action: IntlAction
 ) => {
     switch (action.type) {
         case 'SET_LOCALE':
-            let loc = Intl.setLocale(action.locale);
+            let loc = i18n.setLocale(action.locale);
             return { locale: loc };
         default:
             return state;

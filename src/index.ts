@@ -7,3 +7,6 @@ export { IStream } from './net/IStream';
 
 export { IModule } from './app/IModule';
 export { IApplication, appInstance, setAppInstance } from './app/IApplication';
+
+export * from './types/Interfaces';
+export { IChessTitle, IUserProfile, ISiteUser } from './types/ISiteUser';
